@@ -1,38 +1,72 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>Privacy Policy – Duami</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
+    :root {
+      --text-primary: #1d1d1f;
+      --text-secondary: #6e6e73;
+      --divider: #d2d2d7;
+      --link: #0071e3;
+    }
+
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: #f7f7f7;
       margin: 0;
       padding: 0;
-      color: #222;
-    }
-    .container {
-      max-width: 900px;
-      margin: 40px auto;
       background: #ffffff;
-      padding: 32px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      color: var(--text-primary);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+                   "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
+
+    main {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 48px 20px 80px;
+    }
+
     h1 {
-      margin-top: 0;
+      font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 8px;
     }
+
     h2 {
-      margin-top: 28px;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 40px;
+      margin-bottom: 12px;
     }
+
     p {
+      font-size: 16px;
       line-height: 1.7;
+      color: var(--text-secondary);
+      margin: 0 0 12px;
     }
+
+    .meta {
+      font-size: 14px;
+      color: var(--text-secondary);
+      margin-bottom: 32px;
+    }
+
     .divider {
-      margin: 48px 0;
-      border-top: 1px solid #e5e5e5;
+      border-top: 1px solid var(--divider);
+      margin: 56px 0;
     }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     .ar {
       direction: rtl;
       text-align: right;
@@ -40,132 +74,129 @@
   </style>
 </head>
 <body>
-  <div class="container">
 
-    <!-- English -->
-    <section>
-      <h1>Privacy Policy – Duami</h1>
-      <p><strong>Last updated:</strong> January 20, 2026</p>
+<main>
 
-      <h2>1. Data Collection</h2>
-      <p>
-        Duami does not collect, store, or transmit any personal data outside the user’s device.
-        All information entered by the user (such as shift schedules or leave records) is stored
-        locally on the device only.
-      </p>
+  <!-- English -->
+  <section>
+    <h1>Privacy Policy</h1>
+    <div class="meta">Last updated: January 20, 2026</div>
 
-      <h2>2. Use of Data</h2>
-      <p>
-        Data is used only to display work shift schedules, manage leave records,
-        and generate reports (PDF / Excel).
-      </p>
+    <h2>1. Data Collection</h2>
+    <p>
+      Duami does not collect, store, or transmit any personal data outside the user’s device.
+      All information entered by the user is stored locally on the device only.
+    </p>
 
-      <h2>3. Data Sharing</h2>
-      <p>
-        Duami does not share any data with third-party services, external servers,
-        advertising networks, or any other external entities.
-      </p>
+    <h2>2. Use of Data</h2>
+    <p>
+      Data is used only to display work shift schedules, manage leave records,
+      and generate reports (PDF / Excel).
+    </p>
 
-      <h2>4. Notifications</h2>
-      <p>
-        The application may use local notifications to remind users of upcoming work shifts.
-        No data is transmitted over the internet for notification purposes.
-      </p>
+    <h2>3. Data Sharing</h2>
+    <p>
+      Duami does not share any data with third parties, external servers,
+      advertising services, or analytics platforms.
+    </p>
 
-      <h2>5. Calendar Access</h2>
-      <p>
-        If calendar integration is enabled, Duami accesses the device’s local calendar
-        only to read official holidays. The application does not modify or transmit
-        calendar data outside the device.
-      </p>
+    <h2>4. Notifications</h2>
+    <p>
+      The application may use local notifications to remind users of upcoming work shifts.
+      No data is transmitted over the internet.
+    </p>
 
-      <h2>6. Data Security</h2>
-      <p>
-        All data is stored locally on the device using standard iOS security mechanisms.
-      </p>
+    <h2>5. Calendar Access</h2>
+    <p>
+      If enabled, Duami accesses the device calendar only to display official holidays.
+      No calendar data is modified or transmitted.
+    </p>
 
-      <h2>7. Independent Application</h2>
-      <p>
-        Duami is an independent application and is not affiliated with or officially
-        associated with any government entity.
-      </p>
+    <h2>6. Data Security</h2>
+    <p>
+      All data is stored locally using standard iOS security mechanisms.
+    </p>
 
-      <h2>8. Changes to This Policy</h2>
-      <p>
-        This Privacy Policy may be updated from time to time.
-        Any changes will be published within the application.
-      </p>
+    <h2>7. Independent Application</h2>
+    <p>
+      Duami is an independent application and is not affiliated with any government entity.
+    </p>
 
-      <h2>9. Contact</h2>
-      <p>
-        If you have any questions regarding this Privacy Policy, you may contact us at:
-        <br />
-        <strong>info.alharbi94@gmail.com</strong>
-      </p>
-    </section>
+    <h2>8. Policy Changes</h2>
+    <p>
+      This Privacy Policy may be updated from time to time.
+      Any changes will be published within the application.
+    </p>
 
-    <div class="divider"></div>
+    <h2>9. Contact</h2>
+    <p>
+      For privacy-related questions, contact:
+      <br />
+      <a href="mailto:Info.alharbi94@gmail.com">Info.alharbi94@gmail.com</a>
+    </p>
+  </section>
 
-    <!-- Arabic -->
-    <section class="ar">
-      <h1>سياسة الخصوصية – دوامي</h1>
-      <p><strong>آخر تحديث:</strong> 20 يناير 2026</p>
+  <div class="divider"></div>
 
-      <h2>1. جمع البيانات</h2>
-      <p>
-        لا يقوم تطبيق دوامي بجمع أو تخزين أو إرسال أي بيانات شخصية خارج جهاز المستخدم.
-        جميع المعلومات التي يدخلها المستخدم (مثل جداول الدوام أو الإجازات)
-        يتم حفظها محليًا على الجهاز فقط.
-      </p>
+  <!-- Arabic -->
+  <section class="ar">
+    <h1>سياسة الخصوصية</h1>
+    <div class="meta">آخر تحديث: 20 يناير 2026</div>
 
-      <h2>2. استخدام البيانات</h2>
-      <p>
-        تُستخدم البيانات داخل التطبيق فقط لغرض:
-        عرض جداول الدوام، إدارة الإجازات، وإنشاء التقارير (PDF / Excel).
-      </p>
+    <h2>1. جمع البيانات</h2>
+    <p>
+      لا يقوم تطبيق دوامي بجمع أو تخزين أو إرسال أي بيانات شخصية خارج جهاز المستخدم.
+      جميع البيانات يتم حفظها محليًا على الجهاز فقط.
+    </p>
 
-      <h2>3. مشاركة البيانات</h2>
-      <p>
-        لا يقوم تطبيق دوامي بمشاركة أي بيانات مع:
-        جهات خارجية، خوادم، شركات إعلانية، أو أي أطراف أخرى.
-      </p>
+    <h2>2. استخدام البيانات</h2>
+    <p>
+      تُستخدم البيانات داخل التطبيق فقط لعرض جداول الدوام،
+      إدارة الإجازات، وإنشاء التقارير.
+    </p>
 
-      <h2>4. الإشعارات</h2>
-      <p>
-        قد يستخدم التطبيق إشعارات محلية لتذكير المستخدم بمواعيد الدوام،
-        ولا يتم إرسال أي بيانات عبر الإنترنت لأغراض الإشعارات.
-      </p>
+    <h2>3. مشاركة البيانات</h2>
+    <p>
+      لا يتم مشاركة أي بيانات مع جهات خارجية أو خوادم أو شركات إعلانية.
+    </p>
 
-      <h2>5. الوصول إلى التقويم</h2>
-      <p>
-        في حال تفعيل ربط التقويم، يستخدم التطبيق تقويم الجهاز المحلي فقط
-        لعرض العطل الرسمية، ولا يتم تعديل أو إرسال أي بيانات خارج الجهاز.
-      </p>
+    <h2>4. الإشعارات</h2>
+    <p>
+      يستخدم التطبيق إشعارات محلية فقط لتذكير المستخدم،
+      ولا يتم إرسال أي بيانات عبر الإنترنت.
+    </p>
 
-      <h2>6. أمان البيانات</h2>
-      <p>
-        يتم تخزين جميع البيانات محليًا على الجهاز باستخدام آليات الأمان القياسية في نظام iOS.
-      </p>
+    <h2>5. التقويم</h2>
+    <p>
+      في حال تفعيل ربط التقويم، يتم استخدام تقويم الجهاز المحلي فقط
+      لعرض العطل الرسمية دون تعديل أو إرسال أي بيانات.
+    </p>
 
-      <h2>7. تطبيق مستقل</h2>
-      <p>
-        تطبيق دوامي تطبيق مستقل وغير تابع أو مرتبط رسميًا بأي جهة حكومية.
-      </p>
+    <h2>6. أمان البيانات</h2>
+    <p>
+      يتم تخزين البيانات باستخدام آليات الأمان القياسية في نظام iOS.
+    </p>
 
-      <h2>8. التغييرات على سياسة الخصوصية</h2>
-      <p>
-        قد يتم تحديث سياسة الخصوصية من وقت لآخر،
-        وسيتم نشر أي تحديث داخل التطبيق.
-      </p>
+    <h2>7. تطبيق مستقل</h2>
+    <p>
+      تطبيق دوامي تطبيق مستقل وغير تابع لأي جهة حكومية.
+    </p>
 
-      <h2>9. التواصل</h2>
-      <p>
-        في حال وجود أي استفسار بخصوص سياسة الخصوصية، يمكن التواصل عبر:
-        <br />
-        <strong>info.alharbi94@gmail.com</strong>
-      </p>
-    </section>
+    <h2>8. التغييرات</h2>
+    <p>
+      قد يتم تحديث سياسة الخصوصية من وقت لآخر،
+      وسيتم نشر أي تحديث داخل التطبيق.
+    </p>
 
-  </div>
+    <h2>9. التواصل</h2>
+    <p>
+      للاستفسارات المتعلقة بالخصوصية:
+      <br />
+      <a href="mailto:Info.alharbi94@gmail.com">Info.alharbi94@gmail.com</a>
+    </p>
+  </section>
+
+</main>
+
 </body>
 </html>
